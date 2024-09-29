@@ -71,7 +71,7 @@ document.getElementById('btn-injured').addEventListener('click', function(event)
     div.classList.add('border-2', 'p-4', 'rounded-lg');
     div.innerHTML = `
         <h3 class="text-2xl font-semibold">Donated ${inputInjured} TK for Aid to Injured in Quota Movement</h3>
-        <p class="text-md text-gray-600">Thank you for your generosity!</p>
+       <p class="text-md text-gray-600">Time: ${new Date}</p>
     `;
     
     document.getElementById('transaction-container').appendChild(div);
@@ -106,7 +106,7 @@ document.getElementById('btn-feni').addEventListener('click', function(event) {
     div.classList.add('border-2', 'p-4', 'rounded-lg');
     div.innerHTML = `
         <h3 class="text-2xl font-semibold">Donated ${inputFeni} TK for Flood Relief in Feni, Bangladesh</h3>
-        <p class="text-md text-gray-600">Thank you for your generosity!</p>
+        <p class="text-md text-gray-600">Time: ${new Date}</p>
     `;
     document.getElementById('transaction-container').appendChild(div);
 
